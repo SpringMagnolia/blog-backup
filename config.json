@@ -1,3 +1,6 @@
 {
-    "additionalFooterText": "This website is an example website for MDwiki and contains fantasy data only."
+    "useSideMenu": true,
+    "lineBreaks": "gfm",
+    "additionalFooterText": "SPRINGSS",
+    "anchorCharacter": "#"
 }

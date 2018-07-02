@@ -12,19 +12,15 @@ We offer:
 	* "quick menu" including a soft beverage for only $5,90
 * romantic candlelight dinner
 
-Images
+MATH
 ------
 
-![Interior view](cafe1.png "Interoir view, Image courtesy of Eoghan OLionnain, licesend CC-BY-SA 2.0")
-![Exterior view](cafe2.jpg "Exterior view, Image courtesy of Beatrice Murch, licensed CC-BY 2.0")
+$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
-Location
+GIST
 --------
 
-> Hirschstr. 2a
-> 76133 Karlsruhe / Germany
-
-[gimmick:GoogleMaps (zoom: 13)](Hirschstr. 2a, 76133 Karlsruhe)
+[gimmick:gist](5641564)
 
 Opening hours
 -------------

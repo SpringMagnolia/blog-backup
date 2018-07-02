@@ -3,4 +3,5 @@
 [Contact](contact.md)
 [Guestbook](guestbook.md)
 
-[gimmick:theme](spacelab)
+[gimmick:theme](cerulean)
+[gimmick: math]()
