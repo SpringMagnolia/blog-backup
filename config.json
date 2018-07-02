@@ -2,5 +2,6 @@
     "useSideMenu": true,
     "lineBreaks": "gfm",
     "additionalFooterText": "SPRINGSS",
-    "anchorCharacter": "#"
+    "anchorCharacter": "#",
+    "title": "Spring Blog"
 }
