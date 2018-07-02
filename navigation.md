@@ -1,7 +1,6 @@
-# Your wiki name
+[Home](index.md)
+[Lunch specials](specials.md)
+[Contact](contact.md)
+[Guestbook](guestbook.md)
 
-[Home](home.md)
-[About](about.md)
-[Download](about.md)
-
-[gimmick: math]()
+[gimmick:theme](spacelab)

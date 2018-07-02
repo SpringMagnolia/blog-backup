@@ -1,6 +1,3 @@
-{"useSideMenu": true,
-  "lineBreaks": "gfm",
-  "additionalFooterText": "",
-  "anchorCharacter": "&#x2693;",
-  "title": "MDwiki - Markdown based wiki done 100% on the client via javascript"
+{
+    "additionalFooterText": "This website is an example website for MDwiki and contains fantasy data only."
 }
