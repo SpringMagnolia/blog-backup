@@ -1,4 +1,4 @@
-Welcome...
+Starting...
 ==========
 
 ### to our comfy Café "Fantasia".
@@ -22,13 +22,10 @@ GIST
 
 [gimmick:gist](5641564)
 
-Opening hours
+iframe
 -------------
 
-Mo-Fr: 8AM-11PM
-Sa-Su: 9AM-11PM
-
-Attention: During summer holidays in the state of Baden-W&uuml;rttemberg we are closed!
+[gimmick: iframe](http://www.example.com)
 
 Get to us
 -------
