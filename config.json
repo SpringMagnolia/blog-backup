@@ -1,0 +1,7 @@
+{
+    "useSideMenu": true,  //侧面导航，ture 开启，false 关闭
+    "lineBreaks": "gfm",  //使用 GitHub GFM 格式，另有 original 选项
+    "additionalFooterText": "© LiarOnce ",  //底部版权信息（sorry 暂时没找到添加底部链接的方法）
+    "anchorCharacter": "#",  //悬停在标题旁的字符，支持 Unicode
+    "title": "LiarOnce Wikis"  //标题
+}
