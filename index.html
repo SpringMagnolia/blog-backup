@@ -12958,7 +12958,7 @@
         function b(b) {
             b.remove();
             var c = document.createElement("script");
-            c.type = "text/javascript", c.src = a.md.prepareLink("cdn.bootcss.com/mathjax/2.7.4/latest.js?config=TeX-AMS-MML_HTMLorMML", {forceHTTP: !0}), document.getElementsByTagName("head")[0].appendChild(c)
+            c.type = "text/javascript", c.src = a.md.prepareLink("cdn.bootcss.com/mathjax/2.7.4/latest.js?config=TeX-AMS-MML_HTMLorMML", {forceSSL: !0}), document.getElementsByTagName("head")[0].appendChild(c)
         }
 
         var c = {
@@ -13010,7 +13010,7 @@
             }
             a('link[rel=stylesheet][href*="netdna.bootstrapcdn.com"]').remove();
             var f = a("style[id*=bootstrap]").length > 0;
-            "bootstrap" === c.name && f || (a("style[id*=bootstrap]").remove(), a('<link rel="stylesheet" type="text/css">').attr("href", a.md.prepareLink(c.url)).appendTo("head")), c.inverse === !0 ? (a("#md-main-navbar").removeClass("navbar-default"), a("#md-main-navbar").addClass("navbar-inverse")) : (a("#md-main-navbar").addClass("navbar-default"), a("#md-main-navbar").removeClass("navbar-inverse"))
+            "bootstrap" === c.name && f || (a("style[id*=bootstrap]").remove(), a('<link rel="stylesheet" type="text/css">').attr("href", a.md.prepareLink(c.url, {forceSSL: !0})).appendTo("head")), c.inverse === !0 ? (a("#md-main-navbar").removeClass("navbar-default"), a("#md-main-navbar").addClass("navbar-inverse")) : (a("#md-main-navbar").addClass("navbar-default"), a("#md-main-navbar").removeClass("navbar-inverse"))
         }, f = function (b, c, d) {
             c.name = c.name || d, b.each(function (b, d) {
                 a.md.stage("postgimmick").subscribe(function (b) {
