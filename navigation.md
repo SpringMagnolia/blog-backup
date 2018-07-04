@@ -1,23 +1,21 @@
+# SpringSS
+
 [Home](index.md)
-[Lunch specials](specials.md)
-[Contact](contact.md)
-[Guestbook](guestbook.md)
 
-[Menu Item 1]()
 
-  * # SubMenu Heading 1
-  * [SubMenu Item 1](subitem1.md)
-  * [SubMenu Item 2](subitem2.md)
-  - - - -
-  * # SubMenu Heading 2
-  * [SubMenu Item 3](subitem3.md)
-  - - - -
-  * # SubMenu Heading 3
-  * [SubMenu Item 3](subitem3.md)
+[数学](Mathmatics/summary.md)
 
-[Menu Item 2](item2.md)
-- - - -
-[Menu Item 3](item3.md)
+[机器学习](MachineLearning/summary.md)
+
+[深度学习](DeepLearning/summary.md)
+
+[爬虫](Spider/summary.md))
+
+[读书笔记](ReadingNotes/summary.md)
+
+
+[About](about/about.md)
 
 [gimmick:theme](cerulean)
+
 [gimmick: math]()

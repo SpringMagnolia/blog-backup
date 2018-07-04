@@ -1,45 +1,39 @@
-Starting...
-==========
+#my wiki
 
-### to our comfy Café "Fantasia".
+# 这将是一个wiki
 
-We offer:
+这个wiki将会包含以下内容
 
-* delicious breakfast to start your day
-	* family brunches on Sundays
-* reasonably priced lunch specials
-	* with daily changing menu
-	* "quick menu" including a soft beverage for only $5,90
-* romantic candlelight dinner
-
-MATH
+读书笔记
 ------
 
-$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+主要是个人平时[读书笔记](ReadingNotes/summary.md)的记录
 
-GIST
---------
 
-[gimmick:gist](5641564)
+数学
+------
 
-iframe
--------------
+主要是[统计、微积分、线性代数](Mathmaticas/summary.md)的内容
 
-[gimmick: iframe](http://www.example.com)
 
-Get to us
+机器学习
 -------
 
-Coming from Autobahn A5, take the exit "Karlsruhe Zentrum", follow the road for about 2 miles and take the exit "ZKM". Turn right after the second traffic lights.
+记录[机器学习](MachineLearning/summary.md)个人的学习内容
 
-Specials
+
+深度学习
 --------
 
-Please take a look at our [weekly lunch specials](specials.md).
+记录[深度学习](DeepLearning/summary.md)个人学习的内容
 
-Reservations
+爬虫
 --------------
 
-Reservations can be done at ** +49(0)721-555-123567 **.
+记录[爬虫](Spider/summary.md)个人学习的内容
 
-Note: We do not take reservations for later than 8PM.
+<br>
+
+写在最后
+-----
+**行百里者半九十**
