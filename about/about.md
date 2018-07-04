@@ -1,7 +1,7 @@
 ### About me
 
 
-**name**:SpringSS
+**name**:Springss
 **address**:peking
 **github**: https://github.com/SpringMagnolia/
 **mail**l:frankdawei@hotmail.com
