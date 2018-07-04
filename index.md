@@ -14,7 +14,7 @@
 ### 数学
 
 
-主要是[统计、微积分、线性代数](Mathmaticas/summary.md)的内容
+主要是[统计、微积分、线性代数](Mathmatics/summary.md)的内容
 
 ------
 
