@@ -452,12 +452,20 @@
 
     body {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.428571429;
         color: #333;
         background-color: #fff
     }
-
+	
+	body.md-content-container {
+        font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 1.528571429;
+        color: #333;
+        background-color: #fff
+	}
+	
     input, button, select, textarea {
         font-family: inherit;
         font-size: inherit;
@@ -12569,7 +12577,7 @@
         }
 
         function e() {
-            var b = a("#md-content").find("h2").clone();
+            var b = a("#md-content").find("h3").clone();
             if (b.children().remove(), !(b.length <= 1)) {
                 a("#md-content").removeClass("col-md-12"), a("#md-content").addClass("col-md-9"), a("#md-content-row").prepend('<div class="col-md-3" id="md-left-column"/>');
                 var c = function () {
