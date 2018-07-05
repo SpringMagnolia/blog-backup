@@ -12252,6 +12252,7 @@
 
         var n = a.md.getLogger();
         b();
+				// your code
         var o = {};
         a.md.publicMethods = a.extend({}, a.md.publicMethods, o);
         var p = "";
@@ -12551,6 +12552,31 @@
                 a("#md-menu h1").remove(), a("a.navbar-brand").text(e), a("#md-body").css("margin-top", "70px")
             }
         }
+				
+				function __tagDate() {
+					var re = /(date.*)\<br\>(tags.*\[.*\])/;
+					var tagDate = a('.md-text')[0];
+					if(!tagDate){
+					return false;
+					}
+					var tagDateText = tagDate.innerHTML;
+					var _match = tagDateText.match(re);
+					if (_match){
+					var _date = _match[1],
+							_tag = _match[2];
+					var _html = `
+					<p class="md-tag-date">
+						<div class="md-text text-right" style="position: absolute; bottom: 10px; right: 0; font-size: 12px; font-weight: normal;color: #666;">
+							<span class="tag">${_tag}</span>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<span class="date">${_date}</span>
+						</div>
+					</p>`;
+					var ele = a(_html);
+					ele.appendTo("#md-title");
+					tagDate.remove();
+				}
+				}
 
         function c() {
             if (0 !== a("#md-menu a").length) {
@@ -12569,6 +12595,7 @@
                     f.text(e), d.replaceWith(f)
                 }), b()
             }
+						__tagDate();
         }
 
         function d(b) {
